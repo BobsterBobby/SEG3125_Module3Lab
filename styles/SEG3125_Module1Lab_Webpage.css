@@ -1,0 +1,22 @@
+/*Created by Robert Zhang S#:300077171*/
+
+h1{
+	font-size: 30px;
+}
+h2{
+	color: red;
+	font-size: 10px;
+}
+
+.Div1 {   
+	text-align: center;
+}
+.Div2 {
+	border: 5px outset white;
+	background-color: lightblue;
+	padding-left: 1%;
+}
+.Div3 {
+	padding-left: 10%;
+	padding-right: 10%;
+}
