@@ -36,3 +36,17 @@
   border: 1px solid #ccc;
   border-top: none;
 }
+
+/* option:checked:before { content: "✓" } */
+
+option:before {
+
+content: "☐ "
+
+}
+
+option:checked:before {
+
+content: "☑ "
+
+}

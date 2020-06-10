@@ -27,6 +27,7 @@
 			<p>Tell us a bit about you.</p>
 				Choose a Category (press Ctrl for more than one choice):
 				<br>
+				
 				<select id="dietSelect" name="dietSelect" multiple>
 					<option value=""></option>
 					<option value="Vegetarian">Plant-Based Products</option>
@@ -36,9 +37,38 @@
 					<option value="Organic">Organic Products</option>
 					<option value="None">No preference</option>
 				</select>
+				
+				
+				<!--<label>
+					<input name = "dietSelect" type = "checkbox" value = "Vegetarian">
+					Plant-Based Products
+				</label></br>
+				<label>
+					<input name = "dietSelect" type = "checkbox" value = "GlutenFree">
+					GlutenFree Products
+				</label></br>
+				<label>
+					<input name = "dietSelect" type = "checkbox" value = "SugarFree">
+					SugarFree Products
+				</label></br>
+				<label>
+					<input name = "dietSelect" type = "checkbox" value = "LactoseFree">
+					LactoseFree Products
+				</label></br>
+				<label>
+					<input name = "dietSelect" type = "checkbox" value = "Organic">
+					Organic Products
+				</label></br>
+				<label>
+					<input name = "dietSelect" type = "checkbox" value = "None">
+					No preference
+				</label></br>-->
+				
+				
 				<br>
 				<!-- Button added for user to more easily pick options -->
 				<button id="addChoice" type = "button" value = "Submit" class="block" onclick="populateListProductChoices('dietSelect', 'displayProduct')">Submit</button>
+				<!-- <button id="addChoice" type = "button" value = "Submit" class="block" onclick="populateListProductChoices('dietSelect', 'displayProduct')">Submit</button>-->
 		</div>
 
 		<div id="Products" class="tabcontent">
